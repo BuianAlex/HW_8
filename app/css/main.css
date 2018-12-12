@@ -1,0 +1,160 @@
+footer {
+  padding: 3rem 0 0rem;
+  background-color: #7690c5;
+  color: #fff; }
+  footer .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-bottom: 3rem; }
+    @media (min-width: 992px) {
+      footer .container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between; } }
+  footer h2 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    line-height: 4rem;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: 300; }
+  footer p {
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    letter-spacing: 0px;
+    color: #ffffff; }
+  footer form {
+    width: 50%;
+    min-width: 453px; }
+    footer form p {
+      margin-bottom: 1rem; }
+  footer input, footer textarea {
+    width: 100%;
+    padding: 1rem;
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc; }
+  footer input::-webkit-input-placeholder, footer textarea::-webkit-input-placeholder {
+    font-size: 1.1rem;
+    letter-spacing: 0px;
+    color: #bbbbbb; }
+  footer input::-moz-placeholder, footer textarea::-moz-placeholder {
+    font-size: 1.1rem;
+    letter-spacing: 0px;
+    color: #bbbbbb; }
+  footer input::-ms-input-placeholder, footer textarea::-ms-input-placeholder {
+    font-size: 1.1rem;
+    letter-spacing: 0px;
+    color: #bbbbbb; }
+  footer input::placeholder, footer textarea::placeholder {
+    font-size: 1.1rem;
+    letter-spacing: 0px;
+    color: #bbbbbb; }
+  footer textarea {
+    min-height: 209px; }
+  footer button {
+    margin-top: 1rem;
+    padding: 0.5rem 3rem;
+    background-color: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold; }
+
+.contact-widget {
+  width: 50%;
+  min-width: 453px; }
+
+.contacts {
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .contacts li {
+    position: relative;
+    width: 50%;
+    font-size: 1.1rem;
+    list-style: none;
+    padding-left: 40px;
+    margin-bottom: 1.5rem; }
+    .contacts li::before {
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      font-family: "Font Awesome 5 Free";
+      font-size: 1.5rem; }
+    .contacts li a {
+      color: #fff; }
+  .contacts li:nth-child(1)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f3cd";
+    font-weight: 900; }
+  .contacts li:nth-child(2)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0e0";
+    font-weight: 900; }
+  .contacts li:nth-child(3)::before {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f099"; }
+  .contacts li:nth-child(5)::before {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f39e"; }
+  .contacts li:nth-child(4)::before {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f0d5"; }
+  .contacts li:nth-child(6)::before {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f231"; }
+
+.copyright {
+  margin: 0 auto;
+  padding: 1.2rem 0;
+  text-align: center; }
+
+body {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif; }
+
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto; }

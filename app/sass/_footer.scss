@@ -1,0 +1,124 @@
+footer{
+    padding: 3rem 0 0rem;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap; 
+        margin-bottom: 3rem;
+        @media (min-width: 992px) { 
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+         }
+    }
+    background-color: #7690c5;
+    color: #fff;
+    h2{
+        margin-bottom: 2rem;
+        font-size: 4rem;
+        line-height: 4rem;
+        letter-spacing: -1px;
+        color: #ffffff;
+        font-weight: 300;
+    }
+    p{
+        margin-bottom: 3rem;
+        font-size: 1.1rem;
+        letter-spacing: 0px;
+        color: #ffffff;
+    }
+    form{
+         width: 50%;
+         min-width: 453px;
+         p{
+             margin-bottom: 1rem;
+         }
+    }
+    input, textarea{
+        width: 100%;
+        padding: 1rem;
+        border-radius: 2px;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+    input::placeholder, textarea::placeholder {
+        font-size: 1.1rem;
+        letter-spacing: 0px;
+        color: #bbbbbb;
+    }
+    textarea{
+        min-height: 209px;
+    }
+    button{
+        margin-top: 1rem;
+        padding: 0.5rem 3rem; 
+        background-color: transparent;
+        border: 2px solid #fff;
+        outline: none;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+}
+.contact-widget{
+    width: 50%;
+    min-width: 453px;
+}
+.contacts{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    li{
+        position: relative;
+        width: 50%;
+        font-size: 1.1rem;
+        list-style: none;
+        padding-left: 40px;
+        margin-bottom: 1.5rem;
+        &::before{
+            position: absolute;
+            left:15px;
+            top:50%;
+            transform: translate(-50%, -50%);
+            font-family: "Font Awesome 5 Free";
+            font-size: 1.5rem;
+        }
+        a{
+            color: #fff;
+        }
+    }
+    li:nth-child(1)::before{
+        font-family: "Font Awesome 5 Free";
+        content: "\f3cd";
+        font-weight: 900;
+    }
+    li:nth-child(2)::before{
+        font-family: "Font Awesome 5 Free";
+        content: "\f0e0";
+        font-weight: 900;
+    }
+    li:nth-child(3)::before{
+        font-family: "Font Awesome 5 Brands";
+        content: "\f099";
+    }
+    li:nth-child(5)::before{
+        font-family: "Font Awesome 5 Brands";
+        content: "\f39e";
+    }
+    li:nth-child(4)::before{
+        font-family: "Font Awesome 5 Brands";
+        content: "\f0d5";
+    }
+    li:nth-child(6)::before{
+        font-family: "Font Awesome 5 Brands";
+        content: "\f231";
+    }
+}
+.copyright{
+    margin: 0 auto;
+    padding: 1.2rem 0;
+    text-align: center;
+}
